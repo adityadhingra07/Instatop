@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.initialize(with: ParseClientConfiguration.init(block: { (config: ParseMutableClientConfiguration) in
+            config.applicationId = "07071996"
+            config.clientKey = nil
+            config.server = "http://instatop.herokuapp.com/parse"
+        }))
+        
+        if (PFUser.current() != nil) {
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController")
+            window?.rootViewController = controller
+        }
+
+        
         return true
     }
 

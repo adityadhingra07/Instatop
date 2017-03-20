@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB7B409083935B36AF6B221 /* Pods_Instatop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A698FC62A5DB75704290860 /* Pods_Instatop.framework */; };
 		894471D71E805B870069A91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894471D61E805B870069A91C /* AppDelegate.swift */; };
 		894471D91E805B870069A91C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894471D81E805B870069A91C /* ViewController.swift */; };
 		894471DC1E805B870069A91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894471DA1E805B870069A91C /* Main.storyboard */; };
 		894471DF1E805B870069A91C /* Instatop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 894471DD1E805B870069A91C /* Instatop.xcdatamodeld */; };
 		894471E11E805B870069A91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894471E01E805B870069A91C /* Assets.xcassets */; };
 		894471E41E805B870069A91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894471E21E805B870069A91C /* LaunchScreen.storyboard */; };
+		89644FB91E805FE60059CCF9 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FB81E805FE60059CCF9 /* post.swift */; };
+		89644FBB1E8060210059CCF9 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FBA1E8060210059CCF9 /* MainTableViewCell.swift */; };
+		89644FC11E8060AB0059CCF9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FBD1E8060AB0059CCF9 /* LoginViewController.swift */; };
+		89644FC21E8060AB0059CCF9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FBE1E8060AB0059CCF9 /* MainViewController.swift */; };
+		89644FC31E8060AB0059CCF9 /* PhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FBF1E8060AB0059CCF9 /* PhotoCaptureViewController.swift */; };
+		89644FC41E8060AB0059CCF9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89644FC01E8060AB0059CCF9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EF200A59B38FDEBA5C1BB9A /* Pods-Instatop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instatop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instatop/Pods-Instatop.release.xcconfig"; sourceTree = "<group>"; };
+		7A698FC62A5DB75704290860 /* Pods_Instatop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instatop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		894471D31E805B860069A91C /* Instatop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instatop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		894471D61E805B870069A91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		894471D81E805B870069A91C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		894471E01E805B870069A91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894471E31E805B870069A91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894471E51E805B870069A91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89644FB81E805FE60059CCF9 /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		89644FBA1E8060210059CCF9 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		89644FBD1E8060AB0059CCF9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89644FBE1E8060AB0059CCF9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		89644FBF1E8060AB0059CCF9 /* PhotoCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewController.swift; sourceTree = "<group>"; };
+		89644FC01E8060AB0059CCF9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A335746966D1414D63FE118C /* Pods-Instatop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instatop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instatop/Pods-Instatop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB7B409083935B36AF6B221 /* Pods_Instatop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30D2EE8D241D5D458A2A670B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A698FC62A5DB75704290860 /* Pods_Instatop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		894471CA1E805B860069A91C = {
 			isa = PBXGroup;
 			children = (
 				894471D51E805B870069A91C /* Instatop */,
 				894471D41E805B860069A91C /* Products */,
+				AC85497E5338BCC415F7E51F /* Pods */,
+				30D2EE8D241D5D458A2A670B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,9 @@
 		894471D51E805B870069A91C /* Instatop */ = {
 			isa = PBXGroup;
 			children = (
+				89644FBC1E8060570059CCF9 /* View Controllers */,
+				89644FB61E805FBA0059CCF9 /* Models */,
+				89644FB71E805FC00059CCF9 /* Views */,
 				894471D61E805B870069A91C /* AppDelegate.swift */,
 				894471D81E805B870069A91C /* ViewController.swift */,
 				894471DA1E805B870069A91C /* Main.storyboard */,
@@ -67,6 +97,42 @@
 			path = Instatop;
 			sourceTree = "<group>";
 		};
+		89644FB61E805FBA0059CCF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89644FB81E805FE60059CCF9 /* post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		89644FB71E805FC00059CCF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89644FBA1E8060210059CCF9 /* MainTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		89644FBC1E8060570059CCF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89644FBD1E8060AB0059CCF9 /* LoginViewController.swift */,
+				89644FBE1E8060AB0059CCF9 /* MainViewController.swift */,
+				89644FBF1E8060AB0059CCF9 /* PhotoCaptureViewController.swift */,
+				89644FC01E8060AB0059CCF9 /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AC85497E5338BCC415F7E51F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A335746966D1414D63FE118C /* Pods-Instatop.debug.xcconfig */,
+				2EF200A59B38FDEBA5C1BB9A /* Pods-Instatop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 894471E81E805B870069A91C /* Build configuration list for PBXNativeTarget "Instatop" */;
 			buildPhases = (
+				EB54D75C5AE01EA824331A81 /* [CP] Check Pods Manifest.lock */,
 				894471CF1E805B860069A91C /* Sources */,
 				894471D01E805B860069A91C /* Frameworks */,
 				894471D11E805B860069A91C /* Resources */,
+				9F1FBB6EAD099ECD45856B9F /* [CP] Embed Pods Frameworks */,
+				EA4102D0DD98480CFDD3CAFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +204,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F1FBB6EAD099ECD45856B9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instatop/Pods-Instatop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4102D0DD98480CFDD3CAFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instatop/Pods-Instatop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB54D75C5AE01EA824331A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		894471CF1E805B860069A91C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89644FC31E8060AB0059CCF9 /* PhotoCaptureViewController.swift in Sources */,
+				89644FC21E8060AB0059CCF9 /* MainViewController.swift in Sources */,
+				89644FC11E8060AB0059CCF9 /* LoginViewController.swift in Sources */,
 				894471D91E805B870069A91C /* ViewController.swift in Sources */,
 				894471D71E805B870069A91C /* AppDelegate.swift in Sources */,
 				894471DF1E805B870069A91C /* Instatop.xcdatamodeld in Sources */,
+				89644FC41E8060AB0059CCF9 /* ProfileViewController.swift in Sources */,
+				89644FB91E805FE60059CCF9 /* post.swift in Sources */,
+				89644FBB1E8060210059CCF9 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +384,7 @@
 		};
 		894471E91E805B870069A91C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A335746966D1414D63FE118C /* Pods-Instatop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WD5637H5AA;
@@ -274,6 +398,7 @@
 		};
 		894471EA1E805B870069A91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF200A59B38FDEBA5C1BB9A /* Pods-Instatop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WD5637H5AA;
@@ -304,6 +429,7 @@
 				894471EA1E805B870069A91C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
